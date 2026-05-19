@@ -20,7 +20,7 @@ This project builds a predictive model and decision-support dashboard that allow
 
 ## 🎯 Project Status
 
-🟡 In Progress — Week 2 of 6
+🟡 In Progress — Week 2 of 6 (05/19/2026)
 
 Current phase: Deep Analysis and Insights
 
