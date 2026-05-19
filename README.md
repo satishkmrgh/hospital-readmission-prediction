@@ -20,9 +20,18 @@ This project builds a predictive model and decision-support dashboard that allow
 
 ## 🎯 Project Status
 
-🟡 **In Progress** — Week 1 of 6
+🟡 In Progress — Week 2 of 6
 
-**Current phase:** Foundation and Discovery
+Current phase: Deep Analysis and Insights
+
+Completed so far:
+- Week 1: Industry research, dataset acquisition, environment setup, GitHub repo
+- Data cleaning: 101,766 raw records → 98,053 cleaned (96.35% retained)
+- Binary target created: 30-day readmission (11.3% positive class)
+- Exploratory data analysis: 5 univariate charts with documented findings
+- Feature engineering: 5 model-ready features built
+
+Next: bivariate analysis, then predictive modeling (Week 3)
 
 ---
 
