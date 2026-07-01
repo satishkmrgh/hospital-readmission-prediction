@@ -1,5 +1,4 @@
 # Hospital Readmission Prediction
-
 > Predicting 30-day hospital readmissions to reduce Medicare penalties and improve patient outcomes
 
 ![Status](https://img.shields.io/badge/status-in_progress-yellow)
@@ -20,18 +19,28 @@ This project builds a predictive model and decision-support dashboard that allow
 
 ## 🎯 Project Status
 
-🟡 In Progress — Week 2 of 6 (05/19/2026)
+🟢 Week 4 of 6 Complete — Tableau Dashboard Published (07/01/2026)
 
-Current phase: Deep Analysis and Insights
+| Week | Deliverable | Status |
+|------|-------------|--------|
+| Week 1 | Data Cleaning & Preparation | ✅ Complete |
+| Week 2 | Exploratory Data Analysis | ✅ Complete |
+| Week 3 | ML Modeling (LR, RF, XGBoost) | ✅ Complete |
+| Week 4 | Tableau Decision-Support Dashboard | ✅ Complete |
+| Week 5 | Insights & Storytelling | 🔄 Up Next |
+| Week 6 | Final Presentation & Wrap-up | ⬜ Pending |
 
-Completed so far:
-- Week 1: Industry research, dataset acquisition, environment setup, GitHub repo
-- Data cleaning: 101,766 raw records → 98,053 cleaned (96.35% retained)
-- Binary target created: 30-day readmission (11.3% positive class)
-- Exploratory data analysis: 5 univariate charts with documented findings
-- Feature engineering: 5 model-ready features built
+---
 
-Next: bivariate analysis, then predictive modeling (Week 3)
+## 📊 Interactive Dashboard
+
+**🔗 Live Dashboard:** [Hospital Readmission Prediction Dashboard](https://public.tableau.com/app/profile/satish.kumar.akrura/viz/Book2_17829387676300/HospitalReadmissionDashboard)
+
+The Tableau dashboard provides a clinical decision-support view for hospital staff with three panels:
+
+- 📋 **Patient Risk Triage** — 3,111 high-risk patients ranked by ML-generated risk score with recommended interventions and color-coded severity
+- 📊 **Readmission by Diagnosis** — 18 diagnosis categories ranked by readmission count; Circulatory diseases lead at ~6,000 readmissions
+- 📈 **Risk Score Distribution** — Histogram showing clear separation of Low, Medium, and High risk tiers across all 19,611 patients
 
 ---
 
@@ -40,55 +49,4 @@ Next: bivariate analysis, then predictive modeling (Week 3)
 This project follows an end-to-end analytics workflow:
 
 1. **Discovery** — Industry research and problem framing
-2. **Data Exploration** — Cleaning and EDA on 100,000+ patient records
-3. **Predictive Modeling** — Logistic Regression, Random Forest, XGBoost
-4. **Dashboard** — Tableau executive view with risk scoring and ROI calculator
-5. **Business Case** — Financial impact and recommendations
-
----
-
-## 💻 Tools and Technologies
-
-- **Languages:** Python, SQL
-- **Libraries:** pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn
-- **Visualization:** Tableau Public
-- **Environment:** Anaconda, Jupyter Notebook
-- **Version Control:** Git, GitHub
-
----
-
-## 📂 Project Structure
-hospital-readmission-prediction/
-├── data/
-│   ├── raw/              # Original dataset (not committed)
-│   └── processed/        # Cleaned data (not committed)
-├── notebooks/            # Jupyter notebooks for analysis
-├── dashboards/           # Tableau workbooks
-├── reports/              # Executive summary and findings memos
-├── images/               # Visualizations and charts
-├── .gitignore
-└── README.md
----
-
-## 📊 Dataset
-
-- **Source:** UCI Machine Learning Repository — Diabetes 130-US Hospitals (1999–2008)
-- **Records:** 101,766 patient encounters
-- **Features:** 50 columns spanning demographics, diagnoses, medications, and outcomes
-- **Target:** 30-day readmission (binary)
-
----
-
-## 👤 Author
-
-**Satish Kumar Akrura**
-
-Healthcare Data Analyst | Business Analytics, SNHU 2024
-
-- 💼 LinkedIn: [linkedin.com/in/satishakrura (https://linkedin.com/in/satishakrura)
-- 📧 Email: satishkmr2023@gmail.com
-- 🌐 GitHub: [@satishkmrgh](https://github.com/satishkmrgh)
-
----
-
-*Last updated: May 2026*
+2. **Data Exploration**
