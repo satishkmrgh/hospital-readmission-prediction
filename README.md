@@ -23,8 +23,8 @@ This project builds a predictive model and decision-support dashboard that helps
 | Week 2 | Exploratory Data Analysis | ✅ Complete |
 | Week 3 | ML Modeling (LR, RF, XGBoost) | ✅ Complete |
 | Week 4 | Tableau Decision-Support Dashboard | ✅ Complete |
-| Week 5 | Insights & Storytelling | 🔄 Up Next |
-| Week 6 | Final Presentation & Wrap-up | ⬜ Pending |
+| Week 5 | Insights & Storytelling | ✅ Complete |
+| Week 6 | Final Presentation & Wrap-up | 🔄 Up Next |
 
 ---
 
