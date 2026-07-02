@@ -28,13 +28,12 @@ This project builds a predictive model and decision-support dashboard that helps
 
 ---
 
-## 📊 Interactive Dashboard
+## Week 5 — Key Insights
 
-**🔗 Live Dashboard:** [Hospital Readmission Prediction Dashboard](https://public.tableau.com/app/profile/satish.kumar.akrura/viz/Book2_17829387676300/HospitalReadmissionDashboard)
-
-- 📋 **Patient Risk Triage** — 3,111 high-risk patients ranked by risk score
-- 📊 **Readmission by Diagnosis** — 18 diagnosis categories by readmission count
-- 📈 **Risk Score Distribution** — Low, Medium, High tier separation
+- Circulatory diseases lead in volume (5,864 patients) but rank 6th in avg risk score (0.452)
+- Patients with 13+ diagnoses have a 20% readmission rate — double the baseline
+- High risk patients transferred to another hospital have a 38.7% readmission rate
+- High risk patients sent home with and without support have nearly identical rates (20.5% vs 21.9%)
 
 ---
 
